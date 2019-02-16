@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      Resume Builder
+    </header>
+
+    <article>
+
+      <form>
+
+<section>
+  <h2>Career Objective</h2>
+  <select id="career">
+    <option>to become software engineer</option>
+    <option>to become doctor</option>
+    <option>to become scientist</option>
+    <option>to become lawyer</option>
+  </select>
+</section><br>
+
+<div class="parent">
+
+<section>
+  <h2>Personal Information</h2>
+
+  <input type="text" id="name" placeholder="Name"><br>
+  <input type="text" id="email" placeholder="Email"><br>
+
+</section>
+
+   <section>
+     <h2>Graduation Details</h2>
+     <select id="group1">
+       <option select = "selected" disabled>select your graduation type</option>
+       <option>B.Tech</option>
+       <option>B.E</option>
+       <option>B.sc</option>
+     </select><br>
+     <select id ="branch1">
+       <option select = "selected" disabled>select your branch</option>
+       <option>CSE</option>
+       <option>IT</option>
+        <option>MECH</option>
+       <option>ECE</option>
+       <option>CIVIL</option>
+       <option>EEE</option>
+     </select><br>
+
+     <input type="text"id="college1" placeholder="College Name"><br>
+     <input type="text"id="marks" placeholder="Percentage"><br>
+
+   </section>
+
+</div>
+</form>
+
+<div class="parent">
+  <section>
+    <h2>Intermediate</h2>
+    <select id="group2">
+      <option select = "selected" disabled>select your degree</option>
+      <option>Intermediate</option>
+      <option>Diploma</option>
+      <option>SSC</option>
+    </select><br>
+    <select id="branch2">
+      <option select = "selected" disabled>select your group</option>
+      <option>M.P.C</option>
+      <option>BI.P.C</option>
+      <option>M.E.C</option>
+      <option>C.E.C</option>
+      <option>H.E.C</option>
+    </select><br>
+    <input type="text"id="college2" placeholder="College Name"><br>
+    <input type="text"id="marks2" placeholder="Percentage"><br>
+  </section>
+  <section>
+    <h2>SSC</h2>
+    <select id="group3">
+      <option select = "selected" disabled>select your course</option>
+      <option>State</option>
+      <option>C.B.S.E</option>
+      <option>I.C.S.E</option>
+    </select><br>
+    <input type="text"id="school" placeholder="School Name"><br>
+    <input type="text"id="marks3" placeholder="Percentage"><br>
+    </section>
+
+</div>
+<section>
+  <h2>Technical Skills</h2>
+  <p> Note: Skill must be comma separated</p>
+  <input type="text" id="tech" placeholder="technicalskills"><br>
+</section>
+    </form>
+
+  </article>
+
+    <div style="text-align:center" class="parent">
+    <button type="button" onclick="addData()">submit</button>
+    </div>
+    <script type="text/javascript" src="main.js">
+
+    </script>
+  </body>
+</html>
